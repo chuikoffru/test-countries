@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { Provider } from "react-redux";
-import App from "./App";
+import CountryList from "./components/CountryList";
 import { store } from "./store";
 
 const container = document.getElementById("root") as HTMLElement;
@@ -9,7 +9,7 @@ const container = document.getElementById("root") as HTMLElement;
 ReactDOM.createRoot(container).render(
   <React.StrictMode>
     <Provider store={store}>
-      <App />
+      <CountryList />
     </Provider>
   </React.StrictMode>
 );

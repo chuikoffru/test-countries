@@ -40,12 +40,6 @@ function CountryList() {
 
   const onChangeMode = (value: Mode) => {
     setMode(value);
-
-    if (value === "remove" && selectedRow) {
-    }
-
-    console.log("value", value);
-    console.log("selectedRow :>> ", selectedRow);
   };
 
   const handleCloseModal = () => {
